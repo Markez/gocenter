@@ -1,0 +1,180 @@
+body
+{
+	background: black; 
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+#signup
+{
+	top: 7%;
+	position: absolute;
+	display: block;
+	margin: 1px solid lightgrey;
+	background-color: white;
+	left: 20%;
+	width: 52%;
+	padding: 5px;
+	border-radius: 0px;
+	box-shadow: 0px 2px 2px 2px black;
+}
+#signup fieldset#firstfield
+{
+	position: relative;
+	left:2%;
+	float: left;
+}
+#signup fieldset#firstfield2
+{
+	position: relative;
+	padding: 2% 1% 17% 1%;
+	left:7%;
+}
+#logins
+{
+	top: 30%;
+	position: absolute;
+	display: block;
+	margin: 1px solid lightgrey;
+	background-color: white;
+	left: 37.5%;
+	width: 25%;
+	padding: 5px;
+	border-radius: 0px;
+	box-shadow: 0px 2px 2px 2px black;
+}
+
+#logins fieldset,#signup fieldset
+{
+	width: 90%;
+	margin-bottom: 2em;
+	display: block;
+}
+#logins input[type=text], input[type=password], textarea, select,#signup input[type=text], input[type=password], textarea, select
+{
+	display: block;
+	margin: 0 0 1em 0;
+	width: 95%;
+	border: 0.5px solid lightgrey;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	padding: 2%;
+	overflow: scroll;
+}
+#logins input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover,#signup input[type=text]:hover, input[type=password]:hover, textarea:hover, select:hover
+{
+	border: 1px solid #2F4F4F;
+}
+#logins label,#signup label
+{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+}
+#logins label,#signup legend
+{
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+}
+#signup #submit
+{
+	position: relative;
+	left: 42%;
+}
+#signup label#header_s
+{
+	position: relative;
+	margin-top: 2%;
+	margin-left: 42%;
+	font-size: 25px;
+	font-weight: bold;
+	color: #2F4F4F;
+}
+input[type=submit],form a 
+{
+	border:none;
+	margin-right: 1em;
+	padding: 6px;
+	text-decoration: none;
+	font-size: 12px;
+	-moz-border-radius:4px;
+	-webkit-border-radius: 4px;
+	background: #348075;
+	color: white;
+	-moz-box-shadow:0 1px 0 white;
+	-webkit-box-shadow:0 1px 0 white;
+}
+#validation
+{
+	position: relative;
+	margin-left: 20%;
+	width: 60%;
+	color: red;
+	text-align: center;
+}
+#radio
+{
+	display: inline-block;
+	height: 110px;
+}
+#radio input
+{
+	position: relative;
+	width: 5%;
+}
+#radio label
+{
+	position: relative;
+	font-size: 18px;
+	font-weight: normal;
+}
+#warning 
+{
+	position: relative;
+	font-size: 12px;
+	font-weight:lighter;
+	color: red;
+}
+#warning a
+{
+	background: #fff;
+	color: blue;
+	padding: 0px;
+}
+#login_fieldset input
+{
+	overflow: scroll;
+}
+#filter ul li a
+{
+	cursor: pointer;
+}
+#form_p
+{
+	background-color: white;
+	border-radius: 2%;
+	margin-left: 20%;
+	margin-top: 15%;
+}
+#form_v
+{
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+#in_reg
+{
+	background-color: white;
+	margin-top: 10%;
+	margin-left: 15%;
+	border-radius: 5px;
+}
+.badges1
+{
+	font-size: 10px;
+}
+#badges
+{
+	font-size: 15px;
+}

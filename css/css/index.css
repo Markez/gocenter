@@ -1,0 +1,83 @@
+ul.items
+{
+	margin-left: -8%;
+	list-style-type: none;
+	width: 120%;
+}
+/*triangle flip draw*/
+.arrow.down 
+{
+	background-color: blue; 
+ border-left: 14px solid transparent;  
+  border-right: 14px solid transparent;   
+      border-top: 14px solid #000;
+  }
+/*end of triangle flip*/
+ul.items li
+{
+	display: inline-block;
+	background-color: blue;
+	padding: 1% 1% 1% 1%;
+	margin-left: 1%;
+	margin-top: 2%;
+		-moz-transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+/*ul.items {
+   -webkit-transition: 2s ease-in-out; 
+   -moz-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out; 
+    transition: 2s ease-in-out;
+}*/
+ul.items li:hover
+{
+padding: 2% 2% 2% 2%;
+box-shadow: 3px 3px 3px black;
+border-radius: 3px;
+}
+ul.items li div.tile
+{
+	width: 100%;
+	width: 100%;
+}
+ul.items li:hover
+{
+
+}
+ul.items li img
+{
+	height: 250px;
+	width:200px;
+	border:0px solid black;
+
+}
+ul.items li img:hover
+{
+
+}
+/*content hover plugin*/
+.contenthover { padding:20px 20px 10px 20px; }
+.contenthover, .contenthover h3, contenthover a { color:#fff; }
+.contenthover h3, .contenthover p { margin:0 0 10px 0; line-height:1.4em; padding:0; }
+.contenthover a.mybutton { display:block; float:left; padding:5px 10px; background:#3c9632; color:#fff; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.contenthover a.mybutton:hover { background:#34742d }
+/*content hover end*/
+#intro
+{
+	font-size: 18px;
+	font-family: ARIAL;
+	margin-top: 2%;
+	list-style-type: lower-latin;
+}
+#intro li
+{
+
+}
+#intro2
+{
+		margin-top: 2%;
+	font-size: 18px;
+	font-family: ARIAL;
+}
